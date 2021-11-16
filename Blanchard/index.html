@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blanchard художественная галерея</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container">
+            <!--MOBILE MENU
+            <button aria-label="открыть меню" class="burger-menu">
+                <span class="burger-menu__item"></span>
+                <span class="burger-menu__item"></span>
+                <span class="burger-menu__item"></span>
+              </button>
+
+            <nav hidden class="mobile-menu">
+                <button aria-label="закрыть меню" class="mobile-menu__close">
+                    <span class="menu-close__item"></span>
+                    <span class="menu-close__item"></span>
+                  </button>
+                <ul class="mobile-menu__list">
+                    <li class="mobile-menu__item">
+                        <a href="" class="mobile-menu__link">О нас</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a href="" class="mobile-menu__link">Галерея</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a href="" class="mobile-menu__link">Каталог</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a href="" class="mobile-menu__link">События</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a href="" class="mobile-menu__link">Издания</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a href="" class="mobile-menu__link">Проекты</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a href="" class="mobile-menu__link">Контакты</a>
+                    </li>
+
+                </ul>
+            </nav>
+             MENU-->
+            <div class="container header__menu">
+                <a href="" class="header__logo">
+                    <img src="./img/Logo.svg" alt class="header__logo-img logo-img">
+                </a>
+                <div class="header__nav-search">
+                    <nav class="header__nav">
+                        <ul class="header__nav-list">
+                            <li class="header__nav-item">
+                                <a href="" class="header__nav-link">О нас</a>
+                            </li>
+                            <li class="header__nav-item">
+                                <a href="" class="header__nav-link">Галерея</a>
+                            </li>
+                            <li class="header__nav-item">
+                                <a href="" class="header__nav-link">Каталог</a>
+                            </li>
+                            <li class="header__nav-item">
+                                <a href="" class="header__nav-link">События</a>
+                            </li>
+                            <li class="header__nav-item">
+                                <a href="" class="header__nav-link">Издания</a>
+                            </li>
+                            <li class="header__nav-item">
+                                <a href="" class="header__nav-link">Проекты</a>
+                            </li>
+                            <li class="header__nav-item">
+                                <a href="" class="header__nav-link">Контакты</a>
+                            </li>
+                        </ul>
+                        <button aria-label="Войти" class="button header__open">
+                            <svg class="header__open__icon" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5.12056 9.09278L6.13889 10.1111L9.75 6.5L6.13889 2.88889L5.12056 3.90722L6.98389 5.77778H0V7.22222H6.98389L5.12056 9.09278ZM11.5556 0H1.44444C0.642778 0 0 0.65 0 1.44444V4.33333H1.44444V1.44444H11.5556V11.5556H1.44444V8.66667H0V11.5556C0 12.35 0.642778 13 1.44444 13H11.5556C12.35 13 13 12.35 13 11.5556V1.44444C13 0.65 12.35 0 11.5556 0Z" fill="white"/>
+                                </svg>
+                                Войти                            
+                            </button>
+                    </nav>
+
+                </div>
+            </div>
+
+            <div class="header__menu-down">
+                <ul class="header__menu-down-list">
+                    <li class="header__menu-down-item">
+                        <button class="list--item__btn">Реализм
+                            <svg class="list--item__btn__icon" width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11 1L6 6L1 1" stroke="white"/>
+                                </svg>
+                        </button>
+                        <div class="container--dropdown customScroll" data-simplebar>
+                            <ul class="container--dropdown-list">
+                                <li>
+                                    <a href="" class="container--dropdown-list__item container--dropdown-list__item1">Верроккьо</a>
+                                </li>
+                                <li>
+                                    <a href="" class="container--dropdown-list__item container--dropdown-list__item2">Леонардо</a>
+                                </li>
+                                <li>
+                                    <a href="" class="container--dropdown-list__item container--dropdown-list__item3">Фридрих</a>
+                                </li>
+                                <li>
+                                    <a href="" class="container--dropdown-list__item container--dropdown-list__item4">Тинторетто</a>
+                                </li>
+                                <li>
+                                    <a href="" class="container--dropdown-list__item container--dropdown-list__item1">Верроккьо</a>
+                                </li>
+                                <li>
+                                    <a href="" class="container--dropdown-list__item container--dropdown-list__item2">Леонардо</a>
+                                </li>
+                                <li>
+                                    <a href="" class="container--dropdown-list__item container--dropdown-list__item3">Фридрих</a>
+                                </li>
+                                <li>
+                                    <a href="" class="container--dropdown-list__item container--dropdown-list__item4">Тинторетто</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </li>
+                    <li class="header__menu-down-item">
+                        <button class="list--item__btn">Импрессионизм
+                            <svg class="list--item__btn__icon" width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11 1L6 6L1 1" stroke="white"/>
+                                </svg>
+                            </button>
+                        <div class="container--dropdown">
+                            <ul class="container--dropdown-list customScroll" data-simplebar>
+                                <li>
+                                    <a href="" class="container--dropdown-list__item container--dropdown-list__item21">Моне</a>
+                                </li>
+                                <li>
+                                    <a href="" class="container--dropdown-list__item container--dropdown-list__item22">Сислей</a>
+                                </li>
+                                <li>
+                                    <a href="" class="container--dropdown-list__item container--dropdown-list__item23">Мане</a>
+                                </li>
+                                <li>
+                                    <a href="" class="container--dropdown-list__item container--dropdown-list__item24">Ренуар</a>
+                                </li>
+                                <li>
+                                    <a href="" class="container--dropdown-list__item container--dropdown-list__item21">Моне</a>
+                                </li>
+                                <li>
+                                    <a href="" class="container--dropdown-list__item container--dropdown-list__item22">Сислей</a>
+                                </li>
+                                <li>
+                                    <a href="" class="container--dropdown-list__item container--dropdown-list__item23">Мане</a>
+                                </li>
+                                <li>
+                                    <a href="" class="container--dropdown-list__item container--dropdown-list__item24">Ренуар</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="header__menu-down-item">
+                        <button class="list--item__btn">Постимпрессионизм
+                            <svg class="list--item__btn__icon" width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11 1L6 6L1 1" stroke="white"/>
+                                </svg>
+                        </button>
+                        <div class="container--dropdown">
+                            <ul class="container--dropdown-list customScroll" data-simplebar>
+                                <li>
+                                    <a href="" class="container--dropdown-list__item container--dropdown-list__item31">Ван Гог</a>
+                                </li>
+                                <li>
+                                    <a href="" class="container--dropdown-list__item container--dropdown-list__item32">Сезанн</a>
+                                </li>
+                                <li>
+                                    <a href="" class="container--dropdown-list__item container--dropdown-list__item33">Гоген</a>
+                                </li>
+                                <li>
+                                    <a href="" class="container--dropdown-list__item container--dropdown-list__item34">Сёра</a>
+                                </li>
+                                <li>
+                                    <a href="" class="container--dropdown-list__item container--dropdown-list__item31">Ван Гог</a>
+                                </li>
+                                <li>
+                                    <a href="" class="container--dropdown-list__item container--dropdown-list__item32">Сезанн</a>
+                                </li>
+                                <li>
+                                    <a href="" class="container--dropdown-list__item container--dropdown-list__item33">Гоген</a>
+                                </li>
+                                <li>
+                                    <a href="" class="container--dropdown-list__item container--dropdown-list__item34">Сёра</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="header__menu-down-item">
+                        <button class="list--item__btn">Авангард
+                            <svg class="list--item__btn__icon" width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11 1L6 6L1 1" stroke="white"/>
+                                </svg>
+                        </button>
+                        <div class="container--dropdown">
+                            <ul class="container--dropdown-list customScroll" data-simplebar>
+                                <li>
+                                    <a href="" class="container--dropdown-list__item container--dropdown-list__item41">Кандинский</a>
+                                </li>
+                                <li>
+                                    <a href="" class="container--dropdown-list__item container--dropdown-list__item42">Маринетти</a>
+                                </li>
+                                <li>
+                                    <a href="" class="container--dropdown-list__item container--dropdown-list__item43">Малевич</a>
+                                </li>
+                                <li>
+                                    <a href="" class="container--dropdown-list__item container--dropdown-list__item44">Пикассо</a>
+                                </li>
+                                <li>
+                                    <a href="" class="container--dropdown-list__item container--dropdown-list__item41">Кандинский</a>
+                                </li>
+                                <li>
+                                    <a href="" class="container--dropdown-list__item container--dropdown-list__item42">Маринетти</a>
+                                </li>
+                                <li>
+                                    <a href="" class="container--dropdown-list__item container--dropdown-list__item43">Малевич</a>
+                                </li>
+                                <li>
+                                    <a href="" class="container--dropdown-list__item container--dropdown-list__item44">Пикассо</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="header__menu-down-item">
+                        <button class="list--item__btn">Футуризм
+                            <svg class="list--item__btn__icon" width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11 1L6 6L1 1" stroke="white"/>
+                                </svg>
+                        </button>
+                        <div class="container--dropdown">
+                            <ul class="container--dropdown-list customScroll" data-simplebar>
+                                <li>
+                                    <a href="" class="container--dropdown-list__item container--dropdown-list__item51">Карра</a>
+                                </li>
+                                <li>
+                                    <a href="" class="container--dropdown-list__item container--dropdown-list__item52">Прателла</a>
+                                </li>
+                                <li>
+                                    <a href="" class="container--dropdown-list__item container--dropdown-list__item53">Северини</a>
+                                </li>
+                                <li>
+                                    <a href="" class="container--dropdown-list__item container--dropdown-list__item54">Северини</a>
+                                </li>
+                                <li>
+                                    <a href="" class="container--dropdown-list__item container--dropdown-list__item51">Карра</a>
+                                </li>
+                                <li>
+                                    <a href="" class="container--dropdown-list__item container--dropdown-list__item52">Прателла</a>
+                                </li>
+                                <li>
+                                    <a href="" class="container--dropdown-list__item container--dropdown-list__item53">Северини</a>
+                                </li>
+                                <li>
+                                    <a href="" class="container--dropdown-list__item container--dropdown-list__item54">Северини</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <div class="header__search">
+                    <svg class="header__search__icon" width="23" height="22" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="6.8678" height="1.71695" transform="matrix(-0.718931 0.695081 0.718931 0.695081 4.9375 15.6534)" fill="white"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.0969 18C7.53041 18 3.99692 14.3229 3.99692 10C3.99692 5.67715 7.53041 2 12.0969 2C16.6634 2 20.1969 5.67715 20.1969 10C20.1969 14.3229 16.6634 18 12.0969 18ZM12.0969 20C6.57408 20 2.09692 15.5228 2.09692 10C2.09692 4.47715 6.57408 0 12.0969 0C17.6198 0 22.0969 4.47715 22.0969 10C22.0969 15.5228 17.6198 20 12.0969 20Z" fill="white"/>
+                    </svg>
+                    <form class="header__search__form" action="" method="get">
+                        <label>
+                        <input type="search" placeholder="Поиск по сайту">
+                        </label>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="section-hero">
+        <!-- Slider main container -->
+        <div class="container section-hero__content">
+            <h1 class="section__title">Прикоснитесь к прекрасному</h1>
+            <p class="section-hero__text">Мы вынуждены отталкиваться от того, что реализация намеченных плановых заданий создаёт предпосылки для новых предложений.</p>
+            <button class="button section-hero__button">Подписаться на рассылку</button>
+        </div>
+        <div class="wapper">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide swiper-slide1"></div>
+                    <div class="swiper-slide swiper-slide2"></div>
+                    <div class="swiper-slide swiper-slide3"></div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </div>
+    </section>
+    <section class="section-about-us">
+        <div class="container section-about-us__container">
+            <h2 class="section-headline section-headline__about-us">О нас</h2>
+            <p class="section-about-us__text">Ясность нашей позиции очевидна: семантический разбор внешних противодействий однозначно определяет каждого участника как способного принимать собственные решения касаемо распределения внутренних резервов и ресурсов. Не следует, однако, забывать,
+                что высококачественный прототип будущего проекта влечет за собой процесс внедрения и модернизации модели развития. Повседневная практика показывает, что высокое качество позиционных исследований создаёт необходимость включения в производственный
+                план целого ряда внеочередных мероприятий с учётом комплекса распределения внутренних резервов и ресурсов. В рамках спецификации современных стандартов, действия представителей оппозиции набирают популярность среди определенных слоев населения,
+                а значит, должны быть разоблачены.</p>
+        </div>
+    </section>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/js.js"></script>
+</body>
+
+</html>
